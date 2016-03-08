@@ -17,7 +17,7 @@ Then to sync up:
 
 ##Building
 
-Building works just like in cyanogenmod. `<DEVICE>` will stand for the codename of your device (For example, the Moto X 2014 is victara, and Nexus 5 is hammerhead). `<MANUFACTURER>` will stand for your device's manufacturer (For example, for the Moto X 2014 it would be motorola, and for the Nexus 6P it would be huawei)
+Building works just like in AOSP. `<DEVICE>` will stand for the codename of your device (For example, the Moto X 2014 is victara, and Nexus 5 is hammerhead). `<MANUFACTURER>` will stand for your device's manufacturer (For example, for the Moto X 2014 it would be motorola, and for the Nexus 6P it would be huawei)
 
 ###Getting Vendor Blobs
 
