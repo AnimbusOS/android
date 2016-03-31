@@ -15,7 +15,7 @@
   
   <remote  name="animbus"
            fetch="https://github.com/AnimbusOS"
-           revision="" />
+           revision="android-6.0.1" />
   
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
@@ -35,7 +35,9 @@
   <project path="packages/apps/GEM" name="Substance-Project/GEM" revision="stable" groups="pdk-fs" remote="github" />
   <!--END SUBSTANCE-->
   
-  <!---->
+  <!--BEGIN AOSPB-->
+  
+  <!--END AOSPB-->
 
   <!--BEGIN AOSP-->
   <project path="build" name="platform/build" groups="pdk,tradefed" >
