@@ -38,7 +38,6 @@
   <!--BEGIN AOSPB-->
   <project path="art" name="art" groups="pdk" remote="aospb" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="aospb" />
- 
   <project path="device/qcom/common" name="device_qcom_common" remote="aospb" />
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="aospb" />
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="aospb" />
@@ -48,6 +47,7 @@
   <project path="external/exfat" name="external_exfat" remote="aospb" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="aospb" />
   <project path="external/fuse" name="external_fuse" remote="aospb" />
+  
   <project path="external/libnfc-nci" name="external_libnfc-nci" remote="aospb" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="aospb" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="aospb" />
@@ -103,12 +103,13 @@
   <project path="system/security" name="system_security" remote="aospb" />
   <project path="system/vold" name="system_vold" remote="aospb" />
   <project path="vendor/qcom/opensource/display-frameworks" name="vendor_qcom_opensource_display-frameworks" remote="aospb" />
+  
   <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="aospb" />
   <project path="packages/apps/SamsungServiceMode" name="packages_apps_SamsungServiceMode" remote="aospb" />
   <project path="external/qrngd" name="external_qrngd" remote="aospb" />
+  
   <project path="external/ffmpeg" name="external_ffmpeg" remote="aospb" />
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="aospb" />
-  
   <!--END AOSPB-->
 
   <!--BEGIN AOSP-->
@@ -173,7 +174,6 @@
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/apache-http" name="platform/external/apache-http" groups="pdk" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk" />
   <project path="external/autotest" name="platform/external/autotest" />
   <project path="external/avahi" name="platform/external/avahi" />
@@ -213,7 +213,6 @@
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" groups="drm_hwcomposer" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/dtc" name="platform/external/dtc" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs,pdk-fs" />
@@ -224,7 +223,6 @@
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fec" name="platform/external/fec" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" />
